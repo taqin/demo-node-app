@@ -1,4 +1,12 @@
 {
+  "name": "docker-demo",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Taqint <tango@gmail.com>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "devDependencies": {
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^12.1.0",
