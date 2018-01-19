@@ -5,7 +5,8 @@
   "author": "Taqint <tango@gmail.com>",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
   },
   "devDependencies": {
     "eslint": "^4.15.0",
@@ -13,6 +14,9 @@
     "eslint-plugin-import": "^2.8.0"
   },
   "dependencies": {
-    "http": "0.0.0"
+    "http": "0.0.0",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.14.11",
+    "yargs": "^10.1.1"
   }
 }
